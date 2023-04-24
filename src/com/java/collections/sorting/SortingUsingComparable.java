@@ -1,21 +1,22 @@
+//sorting using comparable interface
 package com.java.collections.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Student implements Comparable<Student>{
+class Student1 implements Comparable<Student1>{
 
     int rollno;
     String name;
     int age;
 
-    Student(int rollno,String name,int age){
+    Student1(int rollno,String name,int age){
         this.rollno=rollno;
         this.name=name;
         this.age=age;
     }
 
-    public int compareTo(Student st) {
+    public int compareTo(Student1 st) {
         if(age==st.age)
             return 0;
         else if (age>st.age){
@@ -29,14 +30,14 @@ class Student implements Comparable<Student>{
 
 
 }
-public class UserdefinedSorting {
+public class SortingUsingComparable {
     public static void main(String[] args) {
-        ArrayList<Student> list=new ArrayList<Student>();
-        Student s1=new Student(100,"Rashmikanta",23);
-        Student s2=new Student(102,"Sourabha",25);
-        Student s3=new Student(101,"Jyotibikash",21);
-        Student s4=new Student(103,"Suryakanta",25);
-        Student s5=new Student(107,"Mitesh",22);
+        ArrayList<Student1> list=new ArrayList<Student1>();
+        Student1 s1=new Student1(100,"Rashmikanta",23);
+        Student1 s2=new Student1(102,"Sourabha",25);
+        Student1 s3=new Student1(101,"Jyotibikash",21);
+        Student1 s4=new Student1(103,"Suryakanta",25);
+        Student1 s5=new Student1(107,"Mitesh",22);
 
 
         list.add(s1);
@@ -46,7 +47,7 @@ public class UserdefinedSorting {
         list.add(s5);
 
         Collections.sort(list);
-        for(Student s:list){
+        for(Student1 s:list){
             System.out.println(s.rollno+" "+s.name+" "+s.age+" ");
         }
     }
