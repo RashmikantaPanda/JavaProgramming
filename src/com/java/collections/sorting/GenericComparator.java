@@ -1,10 +1,20 @@
+//Sorting using Comparator interface
 package com.java.collections.sorting;
-import com.java.collections.sorting.Student;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+class Student{
 
+    int rollno;
+    String name;
+    int age;
+
+    Student(int rollno, String name, int age) {
+        this.rollno = rollno;
+        this.name = name;
+        this.age = age;
+    }
+}
 class RollComparator1 implements Comparator<Student>{
 
     @Override

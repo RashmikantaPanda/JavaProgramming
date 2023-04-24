@@ -1,3 +1,5 @@
+//Sorting using comparator interface, Here we have used the Student class which is present in another file
+//Non-generic comparator (Old Style)
 package com.java.collections.sorting;
 
 import java.util.ArrayList;
