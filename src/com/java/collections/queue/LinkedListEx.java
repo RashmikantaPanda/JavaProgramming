@@ -23,5 +23,18 @@ public class LinkedListEx{
         System.out.println(q.poll());
         System.out.println("Now the q is : "+q);
 
+        //peek(), returns the first element of the queue
+        System.out.println(q.peek());
+
+
+        //offer, add element
+        System.out.println(q.offer(500));
+        System.out.println(q);
+
+        //remove(), removes from first
+        System.out.println(q.remove());
+
+
+
     }
 }
