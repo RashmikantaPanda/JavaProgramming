@@ -1,5 +1,5 @@
 //sorting using comparable interface
-package com.java.collections.sorting;
+package com.java.collections.list.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
