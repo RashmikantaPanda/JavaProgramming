@@ -85,8 +85,7 @@ public class ArrayListExample {
         System.out.println(li.addAll(li2));//adding li2
         System.out.println(li.removeAll(li2));
 
-        //removeRange(beginIndex, endIndex)
-        //li.removeRange(1,5);
+
 
 
     }
