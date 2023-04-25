@@ -1,7 +1,5 @@
 //Adding books to set and
-package com.java.collections.HashSet;
-
-import sun.text.bidi.BidiLine;
+package com.java.collections.set.HashSet;
 
 import java.util.HashSet;
 import java.util.Iterator;

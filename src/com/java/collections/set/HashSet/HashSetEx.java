@@ -2,9 +2,8 @@
         Insertion order is not maintained
         Ignore the duplicate insertions
         */
-package com.java.collections.HashSet;
+package com.java.collections.set.HashSet;
 
-import java.sql.Time;
 import java.util.HashSet;
 import java.util.Iterator;
 
