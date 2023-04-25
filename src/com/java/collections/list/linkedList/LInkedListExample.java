@@ -72,7 +72,7 @@ public class LInkedListExample {
         System.out.println("----------------------");
 
 
-        //getFirst()  getLast
+        //getFirst()  getLast()
         System.out.println(list.getFirst());
         System.out.println(list.getLast());
         System.out.println("----------------------");
