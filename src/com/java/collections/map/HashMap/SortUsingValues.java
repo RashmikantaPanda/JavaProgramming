@@ -1,7 +1,7 @@
 package com.java.collections.map.HashMap;
 import java.util.*;
 
-public class SortingUsingValues {
+public class SortUsingValues {
     public static void main(String[] args) {
         HashMap<Integer, String> hashMap = new HashMap<>();
         hashMap.put(17, "Rashmikanta");
