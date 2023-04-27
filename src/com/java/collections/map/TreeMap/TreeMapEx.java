@@ -12,6 +12,7 @@ public class TreeMapEx {
         tMap.put(7, "Mitesh");
         tMap.put(13, "Jyotibikash");
 
+        System.out.println("TreeMap always sort the keys in ascending order");
         //dispaly
         System.out.println(tMap);
 
