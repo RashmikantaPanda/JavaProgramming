@@ -23,7 +23,8 @@ public class HashTableEx {
         System.out.println(hashTable.getOrDefault(120,"Not Available"));
         System.out.println(hashTable.getOrDefault(125,"Not Available"));
 
-        //putIfAbsent(), It will put the data if it is not present in the existing table and return ture, otherwise return false
+        //putIfAbsent(), It will put the data if it is not present in the existing table and return null,
+        // otherwise return the value
         System.out.println(hashTable.putIfAbsent(350,"BarenyaBinayak"));
         System.out.println(hashTable.putIfAbsent(150,"Rashmikanta"));
         System.out.println(hashTable);
