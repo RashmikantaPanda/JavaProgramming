@@ -1,7 +1,9 @@
 /**
  * Given an array of Integers.
  * We have to find the occurrence of each number in that array.
- * Solution-> We can use Map<Integer,Integer>
+ * Solution->
+ * 1. Using Native technique
+ * 2. We can use Map<Integer,Integer>
  */
 package com.java.questions;
 
