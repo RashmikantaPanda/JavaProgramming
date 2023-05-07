@@ -1,4 +1,4 @@
-package com.java.questions;
+package com.java.questions.array;
 
 /**
  * Given an array A[]. We have to find the sub-array from A[]

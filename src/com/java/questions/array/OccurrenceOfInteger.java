@@ -5,7 +5,7 @@
  * 1. Using Native technique
  * 2. We can use Map<Integer,Integer>
  */
-package com.java.questions;
+package com.java.questions.array;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -4,7 +4,7 @@
  * Add 10 employee details.
  * Show the employee details by city name in reverse order.
  */
-package com.java.questions;
+package com.java.questions.array;
 
 import java.util.ArrayList;
 import java.util.Collections;

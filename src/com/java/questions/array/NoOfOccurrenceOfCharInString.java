@@ -7,7 +7,7 @@
  * (In both cases we are eliminating the whitespace character(s) )
  */
 
-package com.java.questions;
+package com.java.questions.array;
 
 import java.util.HashMap;
 import java.util.Map;
