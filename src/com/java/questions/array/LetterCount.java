@@ -1,7 +1,5 @@
-//There is a String S of lowercase English letters that is repeated infinitely many times.Given an integer n, find
+package com.java.questions.array;//There is a String S of lowercase English letters that is repeated infinitely many times.Given an integer n, find
 //and print the number of a given letter in the infinite String.
-
-package languageJava;
 
 import java.util.Scanner;
 

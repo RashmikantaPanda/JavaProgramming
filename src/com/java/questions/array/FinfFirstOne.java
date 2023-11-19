@@ -1,4 +1,4 @@
-package daa.assignment;
+package com.java.questions.array;
 
 import java.io.BufferedReader;
 import java.io.IOException;

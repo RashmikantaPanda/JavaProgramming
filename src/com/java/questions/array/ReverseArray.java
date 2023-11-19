@@ -1,5 +1,5 @@
-//Reverse an array using swapping(without using an duplicate array)
-package com.java.basics.arrays;
+package com.java.questions.array;//Reverse an array using swapping(without using an duplicate array)
+
 
 import java.util.Scanner;
 

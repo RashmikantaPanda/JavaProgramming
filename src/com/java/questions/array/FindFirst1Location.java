@@ -1,4 +1,5 @@
-package daa.assignment;
+package com.java.questions.array;
+
 import java.util.*;
 
 class FindFirst1Location {

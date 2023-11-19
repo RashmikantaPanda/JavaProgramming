@@ -1,5 +1,4 @@
-//Find the largest number using array
-package com.java.basics.arrays;
+package com.java.questions.array;//Find the largest number using array
 import java.util.Scanner;
 
 public class FindLargestNumber {

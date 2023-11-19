@@ -1,6 +1,4 @@
-package daa.assignment;
-
-//Given an array, we have to chose a target elemet, and to find such pairs whose sum is equals to the target element.
+package com.java.questions.array;//Given an array, we have to chose a target elemet, and to find such pairs whose sum is equals to the target element.
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
