@@ -2,13 +2,13 @@ package com.java.questions.string;
 
 public class CamelCaseConverter {
     public static void main(String[] args) {
-        String input = "hello world Hii hello";
+        String input = "hello world Hii helloIam rashmikanta Panda";
         String camelCase = convertToCamelCase(input);
         System.out.println(camelCase);
     }
     
     public static String convertToCamelCase(String str) {
-        StringBuilder camelCase = new StringBuilder();
+        StringBuilder camelCaseString = new StringBuilder();
         boolean capitalizeNext = false;
 
         for (int i = 0; i < str.length(); i++) {
@@ -17,13 +17,13 @@ public class CamelCaseConverter {
             if (currentChar == ' ' || currentChar == '_' || currentChar == '-') {
                 capitalizeNext = true;
             } else if (capitalizeNext) {
-                camelCase.append(Character.toUpperCase(currentChar));
+                camelCaseString.append(Character.toUpperCase(currentChar));
                 capitalizeNext = false;
             } else {
-                camelCase.append(Character.toLowerCase(currentChar));
+                camelCaseString.append(Character.toLowerCase(currentChar));
             }
         }
-        return camelCase.toString();
+        return camelCaseString.toString();
 
     }
 }

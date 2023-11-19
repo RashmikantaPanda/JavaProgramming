@@ -1,7 +1,7 @@
 package com.java.questions.string;
 
 /**
- * Given a sentence , we have to make each letter of that sentence to Capital Letter.
+ * Given a sentence , we have to make each initial letter of that sentence to Capital Letter.
  * input - hi all I am Rashmikanta panda
  * output - Hi All I Am Rashmikanta Panda
  */
@@ -10,7 +10,7 @@ public class EachStartingCharToChapital {
         String str="hi i am rashmikanta Panda A student of Utkal university";
         System.out.println("Original String : "+str);
         String[] strArr=str.split(" ");
-        System.out.println("After convertring each initial character : ");
+        System.out.println("After convertring each initial character to capital letter: ");
         for(int i=0; i<strArr.length; i++){
             System.out.print(String.valueOf(strArr[i].charAt(0)).toUpperCase());
             for(int j=1; j<strArr[i].length(); j++){
